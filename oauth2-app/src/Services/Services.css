@@ -1,0 +1,87 @@
+/* Service Page Specific Styles */
+
+.service-banner {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  
+  .subheading {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .heading {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    color: #ffffff;
+    font-size: 16px;
+    max-width: 700px;
+    margin: 0 auto 40px;
+  }
+  
+  .service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .service-card {
+    background: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+  }
+  
+  .service-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: #212529;
+    margin-bottom: 10px;
+  }
+  
+  .service-description {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #ee626b;
+    border-color: #ee626b;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+    color: #ffffff;
+  }
+  
